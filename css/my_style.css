@@ -6,6 +6,7 @@
 body{
     font-family: 'Noto sans TC', sans-serif;
 }
+
 p.redred{
     color:red;
     font-size:32px;
@@ -17,4 +18,11 @@ p.redred{
 
 .blueblue{
     color:darkblue
+}
+.expedu_icon {
+    color:blue
+}
+.expedu_icon:hover{
+    background-color:blue;
+    color:white;
 }

@@ -5,8 +5,23 @@
 
 body{
     font-family: 'Noto serif TC', sans-serif;
+    font-style:normal !important
 }
-
+div#redred{
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: rgb(82, 69, 69);
+    font-size: 40px;
+    text-align: left;
+    text-indent: 2em;
+    background-color:rgb(241, 246, 149);
+    line-height: 1.5em;
+    font-family:'Noto Sans TC', sans-serif;
+    border: 5px solid;
+    border-color: rgb(107, 89, 91);
+    background-image: url(../assets/img/sky.jpg);
+    
+    }
 p.redred{
     color:red;
     font-size:32px;
@@ -16,7 +31,7 @@ p.redred{
     font-family: 'Noto sans TC', sans-serif;
 }
 
-.blueblue{
+span.blueblue{
     color:darkblue
 }
 .expedu_icon {
@@ -32,4 +47,46 @@ p.redred{
     background-repeat: no-repeat;
     background-size: cover;
    }
-  
+table{
+    width: 100%;
+    background-color: powderblue;
+    font-style:normal !important
+
+}
+
+table.mytable th{
+    text-align: center;
+    width: 80%;
+    background-color:gold;
+    color: rgb(58, 58, 58);
+    border: 2.5px solid rgb(255, 22, 255);
+    font-style:normal !important
+}
+table.mytable td{
+    text-align: center;
+    border: 2.5px solid cyan;
+    border-collapse: separate;
+    font-style:normal !important
+}
+table.mytable tr:nth-child(even){
+    background-color: cornflowerblue;
+    font-style:normal !important
+}
+.overflowtest{
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 70%;
+    margin: 30px auto;
+    height: 300px;
+    overflow: scroll
+}
+ol.list-group>li:hover {
+    background-color: rgb(96, 90, 102);
+    color: azure; 
+}
+   ol.mylist>li:hover {
+    background-color: rgb(96, 90, 102);
+    color: azure; 
+}

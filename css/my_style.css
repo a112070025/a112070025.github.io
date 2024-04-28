@@ -20,19 +20,20 @@ div#redred{
     border: 5px solid;
     border-color: rgb(107, 89, 91);
     background-image: url(../assets/img/sky.jpg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 p.redred{
     color:red;
     font-size:32px;
     text-align:left;
     text-indent:2em;
-    background-color:darkkhaki;
+    background-color:snow;
     font-family: 'Noto sans TC', sans-serif;
 }
 
 span.blueblue{
-    color:darkblue
+    color:brown
 }
 .expedu_icon {
     color:blue
@@ -57,36 +58,45 @@ table{
 table.mytable th{
     text-align: center;
     width: 80%;
-    background-color:gold;
+    background-color:gainsboro;
     color: rgb(58, 58, 58);
-    border: 2.5px solid rgb(255, 22, 255);
-    font-style:normal !important
+    border: 2.5px solid black;
+    font-style:normal !important;
+    border: 2.5px solid black;
 }
 table.mytable td{
+    color: rgb(58, 58, 58);
     text-align: center;
-    border: 2.5px solid cyan;
+    border: 2.5px solid black;
     border-collapse: separate;
     font-style:normal !important
 }
 table.mytable tr:nth-child(even){
-    background-color: cornflowerblue;
-    font-style:normal !important
+    color: rgb(58, 58, 58);
+    background-color:cyan;
+    font-style:normal !important;
+    border: 2.5px solid black;
+    
 }
 .overflowtest{
-    background-color: black;
-    color:white;
+    background-color: gainsboro;
+    color:cornflowerblue;
     padding: 10px 20px;
     border-radius: 15px;
     width: 70%;
     margin: 30px auto;
     height: 300px;
-    overflow: scroll
+    overflow: auto
 }
 ol.list-group>li:hover {
     background-color: rgb(96, 90, 102);
-    color: azure; 
+    color: paleturquoise;
+    font-style:normal !important;
+    font-size:30px
 }
    ol.mylist>li:hover {
     background-color: rgb(96, 90, 102);
-    color: azure; 
+    color: paleturquoise;
+    font-style:normal !important;
+    font-size:30px;
 }
